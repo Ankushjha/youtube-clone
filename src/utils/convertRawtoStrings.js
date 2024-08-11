@@ -1,4 +1,4 @@
-export const convertRawtoString = (labelValue, isSub=false) =>{
+export const convertRawtoStrings = (labelValue, isSub=false) =>{
 
     const num = Math.abs(Number(labelValue));
     if(num >=1.0e9){

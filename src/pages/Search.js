@@ -110,6 +110,7 @@ export default function Search() {
                         </div>
                     ) : (
                         <Spinner />
+
                     )
                 }
             </div>
